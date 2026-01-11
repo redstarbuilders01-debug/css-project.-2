@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar ul {
+    list-style-type: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    background-color: #333; 
+}
+
+.navbar li {
+    float: left; 
+}
+
+.navbar li a {
+    display: flex; 
+    color: white; 
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none; 
+}
+
+
+.navbar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+
+.content {
+    padding: 16px;
+    margin-top: 30px;
+}
+relative{
+right:15px;
+position:relative;
+
+}
+fixed{
+right:15px;
+position:fixed;
+
+}
+absolute{
+right:15px;
+position:absolute
+
+}
+static{
+right:15px;
+position:static
+
+}

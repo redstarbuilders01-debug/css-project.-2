@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>position in css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a class="relative" href="#home">relative</a></li>
+            <li><a href="#fixed">fixed</a></li>
+            <li><a href="#absolute">absolute</a></li>
+            <li><a href="#static">static</a></li>
+        </ul>
+    </nav>
+  <h2>positionsin css</h2>
+
+  <p>static: This is the default value for all HTML elements. Elements with position: static; are positioned according to the normal flow of the document. The top, bottom, left, and right properties have no effect on these elements.
+relative: A relatively positioned element remains in the normal document flow but can be offset from its original, normal position using the top, bottom, left, and right properties. Other elements on the page do not adjust to fill the gap left by the offset element. This value is commonly used to create a positioning context for absolutely positioned child elements.
+absolute: An absolutely positioned element is removed from the normal document flow. It is positioned relative to its nearest positioned ancestor (any ancestor with a position value other than static). If no such ancestor exists, the element is positioned relative to the initial containing block.
+fixed: A fixed position element is also removed from the normal document flow and is positioned relative to the viewport (the browser window itself). It stays in the same place even when the page is scrolled.
+sticky: A sticky positioned element acts like a relative element until a specific scroll position (or "threshold") is reached within its container. At that point, it becomes fixed and "sticks" to that position in the viewport. This is often used for navigation bars that become fixed at the top of the screen when a user scrolls down. 
+     </p>
+
+  <div class="relative">
+    This div element has position: relative;
+  </div>
+  <br><br>
+
+  <div class="fixed">
+    This div element has position: fixed;
+  </div>
+  <br><br>
+
+  <div class="absolute">
+    This div element has position: absolute;
+  </div>
+  <br><br>
+
+  <div class="static">
+    This div element has position: static;
+  </div>
+  <summary>
+    <position>
+        relative
+        sticky
+        fixed
+        static
+        absolute
+    </position>
+  </summary>
+</body>
+</html>
